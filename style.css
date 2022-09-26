@@ -1,0 +1,148 @@
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+
+
+/* Cor de fundo da página e a Window */
+
+.page {
+
+    box-shadow: 0 0 25px 10px #222;
+    position: relative;
+    padding-top: 7%;
+    width: 100%;  
+    min-height: 100vh;
+    background: #9053c7;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.window {
+    justify-content: right;
+    padding: 50px 100px 0 100px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    height: 660px;
+    width: 870px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+/* Formulário */
+
+
+form {
+    height: 500px;
+    gap: 15px;
+    padding-top: 3rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailimage, .password {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+button {
+    height: 50px;
+    width: 290px;
+    border-radius: 25px;
+    border: none;
+    background-color: #57b846;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 1.3rem;
+}
+
+input { 
+    padding: 0 30px 0 50px;
+    height: 50px;
+    width: 290px;
+    border-radius: 25px;
+    font-size: 17px;
+    border: none;
+    background-color: #e6e6e6;
+    color: black;
+}
+
+a {
+    color: #222;
+    font-size: 16px;
+    text-align: center;
+}
+
+a:hover {
+    color: #57b846;
+    transition: .3s all;
+}
+
+button:hover {
+background-color: #3f3e3e;
+}
+
+h2  {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+span {
+    color: #222;
+    margin-top: .2rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.image {
+    padding: 4rem;
+}
+
+
+
+
+
+
+
+/* Redes sociais */
+#insta, #face, #github {
+    
+    width: 30px;
+    height: 30px;
+}
+
+.redes {
+    padding-top: 1rem;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
